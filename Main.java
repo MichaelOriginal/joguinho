@@ -307,6 +307,9 @@ switch(menu){
        vidaProt=vidaProt-ataqueEspGlobin;
      }
    }while(vidaProt>0 && vidaGlobin>0);
+  if (vidaProt<1){
+  derrota();
+   }
  }
 static void batalha2v1(){
   // opçao de seguir o caminho
