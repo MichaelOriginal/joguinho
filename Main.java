@@ -216,7 +216,6 @@ switch(menu){
      System.out.println("\nAgora como o dominador de "+ elemento +" você desbrava as terras de Takoyaki...\nPRESSIONE [ENTER] PARA CONTINUAR");
     sc.nextLine();
     
-     
      System.out.println("\nComo novo aventureiro, terá varios inimigos em seu caminho! Se prepare " + nome + ", uma vida cheia de desafios espera você....\nPRESSIONE [ENTER] PARA CONTINUAR");
     sc.nextLine();
     
@@ -252,6 +251,8 @@ switch(menu){
   
    }
  static void batalha1(){
+
+   int vidaProt = 100;
 
    //Declarando caracteristicas do inimigo
    int vidaGlobin =100;
